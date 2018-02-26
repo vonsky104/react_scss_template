@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Dashboard",
+    "icon": "clipboard",
+    "address": "dashboard"
+  },
+  {
+    "title": "Pages",
+    "icon": "copy",
+    "address": "pages"
+  },
+  {
+    "title": "Users",
+    "icon": "user",
+    "address": "users"
+  }
+]
