@@ -1,0 +1,15 @@
+.LoginPanel {
+  width: 100%;
+  height: 100vh;
+  padding: 150px 0 390px;
+  &--body {
+    max-width: 435px;
+    padding: 30px 50px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.43);
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.43);
+  }
+}

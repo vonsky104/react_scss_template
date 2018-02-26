@@ -1,0 +1,19 @@
+.NavSide {
+  padding: 0px 0;
+  height: calc(100vh - 65px);
+  background-color: $main-color;
+  overflow-y: auto;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &::-webkit-scrollbar-button{ display: none; height: 13px; border-radius: 0px; background-color: #AAA; }
+  &::-webkit-scrollbar-button:hover{ background-color: #f9f1f1; }
+  &::-webkit-scrollbar-thumb{ background-color: #333333; border-radius: 50px; }
+  &::-webkit-scrollbar-thumb:hover{ background-color: #777171; }
+  &::-webkit-scrollbar-track{ background-color: #cecece; border-radius: 50px; }
+  &::-webkit-scrollbar-track:hover{ background-color: #CCC; }
+  &::-webkit-scrollbar{ width: 4px; }
+}
